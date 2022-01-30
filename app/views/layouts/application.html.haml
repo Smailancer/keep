@@ -8,8 +8,8 @@
   = csp_meta_tag
 %body 
   %header 
-    .head_inner 
-      = link_to "Keeper", root_path, id: "logo"
+    .header_inner 
+      = link_to "Keeper", root_path, id:"logo"
       %nav 
         - if user_signed_in?
           = link_to "Create Doc", new_doc_path
